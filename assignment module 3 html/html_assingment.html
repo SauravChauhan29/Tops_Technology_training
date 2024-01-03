@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html assingment</title>
+  </head>
+  <body>
+    <table border=" 1px " cellpadding="" width="100%" height="100%">
+      <form action="">
+        <!-- TABLE TAG LINES -->
+
+        <tr align="center">
+          <td rowspan="2" width="150vh">home</td>
+          <td rowspan="2" width="150vh">about</td>
+          <td rowspan="2" width="150vh">contact</td>
+          <td rowspan="2" width="150vh">help</td>
+          <td rowspan="2" width="150vh">store</td>
+          <td width="150vh">download</td>
+        </tr>
+        <tr align="center">
+          <td width="150vh">app</td>
+        </tr>
+        <tr>
+          <!-- IMAGE LINE -->
+
+          <td colspan="6">
+            <img
+              width="100%"
+              height="100%"
+              src="./assingments.jpg"
+              alt="image may be moved out "
+          /></td>
+        </tr>
+
+        <!-- CONTACT-US LINE -->
+
+        <tr>
+          <td align="center" colspan="6"> contact-us-page</td>
+        </tr>
+
+        <!-- CONTACT-US IMAGE TAG  -->
+
+        <tr>
+          <td colspan="6">
+            <img
+              width="100%"
+              height="100%"
+              src="./download.jpg"
+              alt="image may be moved out "
+          /></td>
+
+          <!-- TABLE_IN_FORM -->
+        </tr>
+        <tr align="center">
+          <td colspan="3">
+            <label for=""> first-name</label>
+            <input type="text" placeholder="ENTER YOUR FIRST NAME" />
+          </td>
+          <td colspan="3">
+            <label for=""> last-name</label>
+            <input type="text" placeholder="ENTER YOUR LAST NAME" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td colspan="3">
+            <label for=""> email-id</label>
+            <input type="email" required placeholder="ENTER YOUR EMAIL" />
+          </td>
+          <td colspan="3">
+            <label for="">phone-no</label>
+            <input type="tel" maxlength="13" placeholder="+91-123-456-7890" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td colspan="3">
+            <label for="">city</label>
+            <select>
+              <optgroup label="CHOOSE CITY">
+                <option>AHMEDABAD</option>
+                <option> RAJKOT</option>
+                <option>LUCKNOW</option>
+              </optgroup>
+            </select>
+          </td>
+
+          <td colspan="3">
+            <label for="">gender</label>
+            <label for="">MALE</label>
+            <input type="radio" name="1234" />
+            <label for="">FEMALE</label>
+            <input type="radio" name="1234" />
+            <label for="">OTHER</label>
+            <input type="radio" name="1234" />
+          </td>
+        </tr>
+
+        <!-- IFRAME EMBEDDING -->
+
+        <tr align="center" fill="red">
+          <td colspan="3" width="auto" height="100%"
+            ><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.862836855131!2d72.50630707400103!3d23.028807916097932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b767b0a48ed%3A0x713f82e619ac7868!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1704122362900!5m2!1sen!2sin"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe
+          ></td>
+
+          <td colspan="3" width="auto" height="100%"
+            ><iframe
+              width="auto"
+              src="https://www.youtube.com/embed/7EyFKpWYIa0?si=Mur5UHcUwHm5MYOE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe
+          ></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
