@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("span").click(function (event) {
+                event.stopPropagation();
+                alert("The span element was clicked.");
+            });
+            $("li").click(function (event) {
+                event.stopPropagation();
+                alert("The li element was clicked.");
+            });
+            $("ul").click(function () {
+                event.stopPropagation();
+                alert("The ul element was clicked.");
+            });
+            $("div").click(function () {
+                event.stopPropagation();
+                alert("The div element was clicked.");
+            });
+            $("body").click(function () {
+                event.stopPropagation();
+                alert("The body element was clicked.");
+            });
+        });
+    </script>
+</head>
+
+<body style="margin: 25px auto; height:500px;width:500px;padding:10px;border:1px solid blue;background-color:lightblue;">body(great-great-grand parents)
+    <div style="height:400px;margin: 25px auto; width:400px;padding:10px;border:1px solid blue;background-color:lightblue;">div(great-grand parents)
+        <ul style="height:300px;margin: 25px auto; width:300px;padding:10px;border:1px solid blue;background-color:lightblue;">ul (grand parents)
+            <li style="height:200px;margin: 25px auto; width:200px;padding:10px;list-style: none;border:1px solid blue;background-color:lightblue;"> li (direct parents)
+                <span
+                    style="display: block;margin: 25px auto; height:100px;border:1px solid blue;">span</span>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
