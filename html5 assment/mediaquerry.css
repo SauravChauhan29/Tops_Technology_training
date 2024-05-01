@@ -1,0 +1,321 @@
+@media only screen and (max-width: 768px) {
+
+
+
+    .meeting_delta {
+
+        width: 33%;
+        height: 30%;
+        margin: 30px;
+    }
+
+    .meeting_categori {
+        /* margin-top: 0px; */
+        padding: 10px 15px;
+        margin-top: 0px;
+    }
+
+    .meeting_section_date {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .meeting_date {
+        height: 45%;
+        width: 45%;
+        margin: 10px 00px;
+
+        /* height: 46%; */
+        /* width: 95%; */
+        /* background-color: blue; */
+        margin: 0px 10px;
+        border-radius: 20px;
+        overflow: scroll;
+
+    }
+
+
+
+    .container_date {
+        width: 70%;
+        max-height: fit-content;
+        margin: 0 auto;
+
+
+    }
+
+    .meeting_categori .MEET-CLICK {
+        margin: 0;
+    }
+
+    .meet-on-date {
+        padding: 11px 10px;
+    }
+
+
+    /* section 2 */
+
+
+
+    /* section 3 */
+
+
+    .left-top-s3,
+    .left-bottom-s3 {
+        width: 100%;
+        /* height: 30vh; */
+        /* margin: 5px; */
+
+    }
+
+    .s3-container {
+        display: flex;
+        align-items: normal;
+        overflow: scroll;
+        flex-wrap: wrap;
+        padding: 30px 0;
+    }
+    .left-s3,
+    .right-s3 {
+        width: 90%;
+        height: 65%;
+        margin: 15px;
+        /* background-color: rgb(10, 23, 255); */
+    }
+
+    .left-s3 {
+        gap: 20px;
+    }
+    .right-s3-container{
+        height: 300px;
+        background-color: blue;
+    }
+
+
+
+
+
+
+    /* section 5  */
+
+
+    .fact-container {
+        display: block;
+    }
+
+    .placement-data,
+    .placement-video {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+    .placement-video {
+        display: block;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .topsvideo {
+        border-radius: 20px;
+        transform: translateX(10%);
+        width: 90%;
+        height: 300px;
+
+
+    }
+
+    /* section 1 */
+
+    .s1-h1-title {
+        padding: 2px 0;
+    }
+
+    .s1-h1-span-icons {
+
+        font-size: 20px;
+
+    }
+
+    .s1-h1 {
+        text-align: center;
+        padding: 0 31px;
+        font-size: 13px;
+    }
+
+    .s1-h1-span-mt {
+        font-size: 26px;
+        font-weight: 800;
+    }
+
+    .s1-lists {
+        display: none;
+    }
+
+    .s1-h2 {
+        font-size: 22px;
+        padding: 22px 39px;
+    }
+
+    .s1-content {
+
+        width: calc(70%);
+        position: absolute;
+        top: 40%;
+        left: 35px;
+
+    }
+
+    .s1-content-p3 {
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    .box1 {
+        margin: 0 10px  ;
+    }
+
+    .cardicon {
+        margin: 8px ;
+        font-size: 11px;
+    }
+
+    /* .container {
+        transform: translate(0%, -40%);
+    } */
+
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: block;
+        width: 100%;
+
+    }
+
+    .meeting_delta {
+        width: 90%;
+        height: 20%;
+        margin: 0 15px 15px;
+    }
+
+    .meeting_section_date {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 87%;
+        margin: 15px;
+    }
+
+    .meeting_date {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .container_date {
+        width: 100%;
+        height: 66rem;
+    }
+
+    /* section5  */
+    .course {
+        /* height: 90rem; */
+        height: 100%;
+    }
+
+    .course .course-heading {
+        height: 9%;
+    }
+
+    .course .course-heading h2 {
+
+        /* height: 15%; */
+        margin: 8% 6%;
+        transform: translatey(54%);
+    }
+
+    .course-card-section {
+        display: block;
+        width: 100%;
+
+    }
+
+    .course-card {
+        height: 20%;
+        width: 90%;
+        margin: 20px auto;
+
+    }
+
+    .course-card .bottom {
+        height: 10em;
+    }
+
+    .course-card .top {
+        height: 10em;
+    }
+
+    /* section 5 */
+    .placement-data, .placement-video{
+        width: 90%;
+    }
+    .placement-video{
+        padding: 0;
+    }
+    .placement-section{
+        margin-top: 30px;
+    }
+
+
+
+    /* section1 mq */
+
+    /* .s1-h1-title {
+    } */
+    .s1-h1-span-icons {
+        display: none;
+        font-size: 10px;
+
+    }
+    .s1-h1-span-mt {
+        font-size: 26px;
+        font-weight: 800;
+    }
+
+    .s1-lists {
+        display: none;
+    }
+
+    .s1-h1 {
+        display: block;
+    }
+
+    .s1-h2 {
+        font-size: 22px;
+        padding: 22px 39px;
+    }
+
+    /* .s1-content {
+     
+        width: calc(70%);
+        position: absolute;
+        top: 48%;
+        left: 35px;
+        
+    }  */
+    .s1-content-p3 {
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+}
+
+
+
+/* for 810 */
+
+
