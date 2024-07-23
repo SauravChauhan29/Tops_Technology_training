@@ -1,0 +1,49 @@
+
+body {
+  background: #fff;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  
+}
+
+header, footer {
+  text-align: center;
+}
+
+a {
+  color: LinkText;  
+}
+
+main {
+  display: flex;
+  padding: 1em;
+}
+
+form {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+textarea,
+output {
+  flex: 1;
+
+  white-space: pre-wrap;
+  border: 1px solid #666;
+  padding: 0.5em;
+  resize: none;
+  font-family: monospace;
+}
+
+button {
+  border: none;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+}
