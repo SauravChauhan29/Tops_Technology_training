@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.col-white {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px
+}
+.mg-80vw{
+    width: 80vw;
+}
+
+.top_header {
+    background: linear-gradient(to right, #1f2024, #303338, #1f2024);
+    padding: 10px 100px 0
+}
+
+
+
+.logo {
+    width: 30%
+}
+
+.logopng {
+    width: 125px;
+    color: white
+}
+
+.header_rightside_content {
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+    flex-direction: column
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 40px
+}
+
+.nav-links li {
+    list-style: none;
+    color: white;
+    font-size: 16px
+}
+
+.poster {
+    
+    margin: 0 auto;
+    height: fit-content;
+    background: url(./240_F_243549193_1jAgIBe6vliz11uoz9mWu6GsAlKIVtCM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Edu AU VIC WA NT Hand";
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 100px 0 0 100px ;
+    color: white;
+}
+.headline{
+    font-size: 35px;
+}
+.tagline {
+    width: 25vw;
+    color: white;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 300;
+    padding: 50px 0 30px 0; 
+    text-shadow: 8px 2px 5px black;
+}
+main{
+    margin: 0 auto;
+    font-size: 21px;
+    display: flex;
+}
+.parameter-checker{
+    background-color: #f8babaad;
+    margin: 0 auto;
+    width: 40%;  
+    padding: 50px;
+}
+.trip-selector{
+    width: fit-content;
+    margin: 15px 0;
+}
+
+.parameter-checker input{
+    width: 90%;
+}
+.trip-selector input{
+    width: 15%;
+}
+.recentnews p,h5 {
+    padding: 10px 0;
+}
+.recentnews h2 {
+    padding: 15px 0;
+}
+.data-inputing input {
+    width: 80%;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+.data-inputing button {
+    padding: 10px 30px;
+    background:linear-gradient( #4fa7c2,#2a81a3) ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.footer{
+    
+    text-align: center;
+    background: linear-gradient(to right, #1f2024, #303338, #1f2024);
+    height: 100px;
+    color: white;
+    align-content: center;
+}
+
+
+
+/* right side section starting */
+
+.right-side{
+    width: 60%;
+    padding: 50px;
+}
+.right-side p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.right-side button{
+    float: right;
+    margin-left: 15px;
+    padding: 10px 20px;
+    background:linear-gradient( #4fa7c2,#2a81a3) ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+} 
+
+.clientsection{
+    
+    display: flex;
+    gap: 20px;
+
+}
+.clientsection .right_client_section{
+   width: 60%;
+    
+
+}
+.clientsection .left_client_section{
+    width: 40%;
+    background:linear-gradient( #4fa7c2,#2a81a3) ;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}

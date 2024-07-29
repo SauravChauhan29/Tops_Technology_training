@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.d-al-it{
+    align-items: center
+}
+
+.mar-auto{
+    margin: 0 auto;
+}
+.text-white {
+    color: white;
+}
+.bg-linear {
+    background: linear-gradient(#4fa7c2, #2a81a3);
+}
+.text-center {
+    text-align: center;
+}
+.p-10-100 {
+    padding: 10px 100px 0;
+}
