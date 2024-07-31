@@ -1,0 +1,35 @@
+
+.maindiv{
+    margin: auto;
+    width: 70%;  
+    background: rgb(99, 99, 161);
+    text-align: center;
+    padding:25px  50px;
+    align-content: center;
+
+   
+}
+
+input{
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+/* ul {
+    
+   padding: 0;
+} */
+ul li {
+    list-style: none;
+border-bottom: 1px solid black;
+padding: 10px 0;
+color: white;
+font-size: 18px;
+}
+p{
+    height: 78dvh;
+    margin-top: 100px;
+}
