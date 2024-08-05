@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=DotGothic16&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./utilityclasses.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+</head>
+
+<body>
+    <header class="top_header">
+        <div class="flex main-container-padding">
+            <div class="logo">
+                <i><span class="logo-top-text"><span class="logo-left-text">AIR</span><span>LINES</span></i>
+                <span class="logo-bottom-text">INTERNATIONAL TRAVEL</span>
+            </div>
+            <div class="header_rightside_content">
+                <span class="headericons">
+                    <i class="fa-solid fa-house-user col-white"></i>
+                    <i class="fa-regular fa-envelope col-white" style="padding-right: 0;"></i>
+                </span>
+                <span class="header-list">
+                    <ul class="nav-links">
+                        <li class="navs"><a href="/">HOME</a></li>
+                        <li class="navs"><a href="./ouraircraft.html">OUR AIRCRAFT</a></li>
+                        <li class="navs"><a href="./safety.html">SAFETY</a></li>
+                        <li class="navs"><a href="">CHARTERS</a></li>
+                        <li class="navs" style="padding-right: 0;"><a href="./contactus.html">CONTACTS</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <div class="poster main-container">
+        <div class="poster-wrapper">
+            <h2 class="headline">
+                COMFORT <br>
+                guaranteed
+            </h2>
+            <p class="tagline">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloribus accusamus rerum
+                doloremque ipsum ut.
+            </p>
+        </div>
+    </div>
+    <main class="main-container">
+        <div class="container parameter-checker left-side">
+            <h2>Your Flight Planner</h2>
+            <form action=""> 
+            <div class="trip-selector">
+                <input type="radio" name="trip" id="round-trip"><label for="round-trip">Round-Trip</label>
+                <input type="radio" name="trip" id="empty-leg"><label for="empty-leg">Empty-leg</label><br>
+                <input type="radio" name="trip" id="one-way"><label for="one-way">One-way</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="trip" id="multi-leg"><label for="multi-leg">Multi-leg</label>
+            </div>
+            <div class="data-inputing">
+                <label for="leaving-from">Leaving From:</label><br>
+                <input type="text" id="leaving-from" placeholder="Enter City"><br>
+
+                <label for="going-to">Going To:</label><br>
+                <input type="text" id="going-to" placeholder="Enter City"><br>
+                <label for="departure-date">Departure Date & Time:</label><br>
+                <input type="date" id="departure-date"><br>
+                <label for="return-date">Return Date & Time:</label><br>
+                <input type="date" id="return-date"><br>
+                <label for="passengers">Passenger(s):</label><br>
+                <input type="number" id="passengers" placeholder="Enter Number"><br>
+                <span><button id="formsubmitting">GO</button></span >
+            </form>
+            </div><br><br><br><br>
+            <div class="recentnews">
+                <h2>Recent News</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h5>November 5, 2010</h5>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h5>November 5, 2010</h5>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h5>November 5, 2010</h5>
+                <hr>
+            </div>
+        </div>
+        <div class="right-side container">
+            <h2>Welcome To Our Website</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, nobis placeat, tempore sunt veritatis eos distinctio sed, quia molestiae voluptatem dolorum accusantium repellat aut id!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus maiores sapiente quasi iste. Officia, fugit beatae laborum veritatis libero eos numquam voluptates labore autem?</p>
+            <ul>
+                <li>Aircraft</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id harum iste debitis. Neque nesciunt molestiae recusandae distinctio at dignissimos aliquid perspiciatis.</p>
+            <button>READ MORE</button>
+            <br><br>
+            <ul>
+                <li>Charters</li>
+            </ul>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus nobis suscipit reiciendis tempore, culpa iste.</p>
+            <button>RESERVATION</button>
+            <button>FLEET</button>
+            <br><br><br>
+            <div class="clientsection">
+                <div class="right_client_section">
+                    <h2>Our Clients</h2>
+                    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Hic est reiciendis commodi aut voluptatum sit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt, ea numquam molestias ab molestiae labore illum omnis.</p>
+                </div>
+                <div class="left_client_section">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos perferendis nihil illum incidunt porro beatae? Voluptatibus, assumenda ex veritatis voluptate pariatur ratione, praesentium.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <span>Copyright &#169; Domain Name - All Rights Reserved</span>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
