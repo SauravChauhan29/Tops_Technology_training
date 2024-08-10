@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.col-white {
+  color: white;
+  font-size: 20px;
+  padding-right: 20px
+}
+.main-container{
+  width: 80vw;
+  margin: 0 auto;
+}
+.main-container-padding{
+ padding: 20px 0;
+ margin: 0 auto;
+}
+
+.top_header {
+  background: linear-gradient(to right, #1f2024, #303338, #1f2024);
+  padding: 10px 100px ;
+  /* width: 100vw; */
+}
+
+
+
+.logo {
+  width: 30%;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+ 
+}
+
+.logo .logo-top-text,.logo-bottom-text {
+  background-color: white;
+  color: transparent;
+  background-clip: text;
+  display: block;
+  font-size: 40px;
+}
+.logo-left-text{
+  margin-right: 2px;
+  background: linear-gradient( #4fa7c2,#2a81a3);
+  background-clip: text;
+  color: transparent;
+}
+.logo-bottom-text {
+  font-size: 20px;
+}
+
+.header_rightside_content {
+  /* background-color: white; */
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  flex-direction: column
+}
+
+.nav-links {
+  display: flex;
+  
+  flex-direction: row;
+  gap: 40px
+  
+}
+
+.nav-links li {
+  
+  list-style: none;
+  color: white;
+  font-size: 17px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.poster {
+  
+  
+  height: fit-content;
+  background: url(../src/images/240_F_243549193_1jAgIBe6vliz11uoz9mWu6GsAlKIVtCM.jpg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  font-family: "Poppins", sans-serif;
+ 
+  font-optical-sizing: auto;
+  font-style: italic;
+  padding: 100px 0 0 100px ;
+  color: white;
+}
+.poster-wrapper{
+  height: 400px;
+}
+.headline{
+  font-size: 35px;
+
+}
+.tagline {
+  width: 25vw;
+  color: white;
+  /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding: 50px 0 30px 0; 
+  /* text-shadow: 8px 2px 5px black; */
+}
+main{
+  margin: 0 auto;
+  font-size: 25px;
+  display: flex;
+}
+main button{
+  padding: 10px 30px;
+  background:linear-gradient( #4fa7c2,#2a81a3) ;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  font-style: italic;
+
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+  margin-left: 15px;
+  padding: 10px 20px;
+  
+  border: none;
+
+ 
+}
+
+.left-side h2,.right-side h2
+{
+
+  color: #494a4f;
+  font-style: italic;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  /* padding: 15px 0; */
+}
+
+.right-side p {
+  margin: 20px 0;
+ 
+}
+
+
+.left-side label,.right-side p{
+  font-family: "Barlow Condensed", sans-serif;
+font-weight: 400;
+font-size: 22px;
+/* font-style: normal; */
+}
+.left-side p{
+  font-family: "Barlow Condensed", sans-serif;
+font-weight: 400;
+font-size: 22px;
+  padding: 10px 0;
+  
+}
+.left-side h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 0;
+  
+}
+
+
+.parameter-checker{
+  background-color: #f8babaad;
+  margin: 0 auto;
+  width: 100%;  
+
+}
+
+.flightplanner{
+  width: 40%;  
+}
+.clientintro{
+  width: 60%;
+}
+.trip-selector{
+  width: fit-content;
+  margin: 15px 0;
+}
+
+
+.data-inputing input {
+  width: 80%;
+  padding: 2px;
+  margin-bottom: 5px;
+
+}
+
+.footer{
+  
+  text-align: center;
+  background: linear-gradient(to right, #1f2024, #303338, #1f2024);
+  height: 100px;
+  color: white;
+  align-content: center;
+}
+
+
+
+/* right side section starting */
+
+.right-side{
+  width: 100%;
+
+}
+
+
+
+.clientsection{
+  
+  display: flex;
+  gap: 20px;
+
+}
+.clientsection .right_client_section{
+ width: 60%;
+  
+
+}
+.clientsection .left_client_section{
+  width: 40%;
+  background:linear-gradient( #4fa7c2,#2a81a3) ;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+
+
+
+/* effects */
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4fa7c2; 
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+
+a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
