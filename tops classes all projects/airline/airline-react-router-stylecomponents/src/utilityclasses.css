@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 50px;
+}
+.container-top-p-0{
+    padding-top: 0;
+}

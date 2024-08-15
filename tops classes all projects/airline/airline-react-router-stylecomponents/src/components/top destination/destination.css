@@ -1,0 +1,59 @@
+
+
+.box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.box1 {
+    background: linear-gradient(rgba(255, 255, 0, 0.3), rgba(255, 255, 0, 0.3)), url(./image/Taj-Mahal.jpg);
+    background-size: cover;
+    /* background-position-y: 50%; */
+    background-repeat: no-repeat;
+}
+.box1::after {
+    content: 'Seven Wonders';
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.box2 {
+    background: linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)), url(./image/seacoast.jpg);
+    background-size: cover;
+    /* background-position: bottom; */
+       background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+.box2::after {
+    content: 'Sea Coast';
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.box3 {
+    background: linear-gradient(rgba(255, 166, 0, 0.3),rgba(255, 166, 0, 0.3)), url(./image/deserts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box3::after {
+    content: 'Deserts';
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
