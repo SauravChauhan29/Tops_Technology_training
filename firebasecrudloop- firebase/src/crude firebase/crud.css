@@ -1,0 +1,146 @@
+/* General Reset and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    width: 80vw;
+    margin: 20px auto;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Enhanced Form Styling */
+.crud-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    background-color: red;
+}
+
+.form-group {
+    /* display: flex; */
+    flex-direction: row;
+}
+
+label {
+    /* margin-bottom: 5px; */
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+/* Decorative Input Fields */
+input[type="text"], input[type="email"] {
+    padding: 12px 15px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(145deg, #f5f5f5, #eaeaea);
+    color: black;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+    background: #fff;
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    /* color: b; */
+    /* opacity: 0.; */
+    font-style: italic;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.4);
+}
+
+/* Table Styling */
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.crud-table th, .crud-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.crud-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* .crud-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+
+/* .crud-table tr:hover {
+    background-color: #f1f1f1;
+} */
+
+.edit-btn, .delete-btn {
+    padding: 8px 16px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.edit-btn {
+    background-color: #28a745;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
